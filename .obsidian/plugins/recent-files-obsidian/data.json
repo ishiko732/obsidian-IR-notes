@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "简单排序",
+      "path": "408/数据结构/排序/简单排序.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.canvas"
+    },
+    {
+      "basename": "排序的概念",
+      "path": "408/数据结构/排序/排序的概念.md"
+    },
+    {
+      "basename": "排序",
+      "path": "408/数据结构/排序/排序.md"
+    },
+    {
+      "basename": "求最大公倍数gcd",
+      "path": "408/数据结构/基本算法/求最大公倍数gcd.md"
+    },
+    {
+      "basename": "一文吃透时间复杂度和空间复杂度 - 知乎",
+      "path": "408/数据结构/复杂度/一文吃透时间复杂度和空间复杂度 - 知乎.md"
+    },
+    {
+      "basename": "斐波那契数的时间复杂度、空间复杂度详解_lxf_style的博客-CSDN博客_斐波那契数列时间复杂度",
+      "path": "408/数据结构/复杂度/斐波那契数的时间复杂度、空间复杂度详解_lxf_style的博客-CSDN博客_斐波那契数列时间复杂度.md"
+    },
+    {
+      "basename": "概论",
+      "path": "408/数据结构/复杂度/概论.md"
+    },
+    {
+      "basename": "_Index_of_algorithm",
+      "path": "algorithm/_Index_of_algorithm.md"
+    },
+    {
+      "basename": "运算方法和运算器",
+      "path": "408/计算机组成原理/运算表达/运算方法和运算器.md"
+    },
+    {
+      "basename": "数字电路",
+      "path": "408/计算机组成原理/数字电路/数字电路.md"
+    },
+    {
+      "basename": "运算器",
+      "path": "408/计算机组成原理/运算器.md"
+    },
+    {
+      "basename": "处理器",
+      "path": "408/计算机组成原理/处理器.md"
+    },
+    {
       "basename": "大数相加",
       "path": "algorithm/大数相加.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "lp2",
       "path": "resources/images/lp2.png"
-    },
-    {
-      "basename": "lp1",
-      "path": "resources/images/lp1.png"
-    },
-    {
-      "basename": "p4",
-      "path": "resources/images/p4.png"
-    },
-    {
-      "basename": "p1",
-      "path": "resources/images/p1.png"
-    },
-    {
-      "basename": "p2",
-      "path": "resources/images/p2.png"
-    },
-    {
-      "basename": "p3",
-      "path": "resources/images/p3.png"
-    },
-    {
-      "basename": "Pasted image 20210929175526",
-      "path": "resources/Pasted image 20210929175526.png"
-    },
-    {
-      "basename": "Pasted image 20210917153040",
-      "path": "resources/Pasted image 20210917153040.png"
-    },
-    {
-      "basename": "Pasted image 20210917104234",
-      "path": "resources/Pasted image 20210917104234.png"
-    },
-    {
-      "basename": "_Index_of_Scheduling for Spaced Repetition",
-      "path": "Scheduling for Spaced Repetition/_Index_of_Scheduling for Spaced Repetition.md"
-    },
-    {
-      "basename": "_Index_of_SuperMemo",
-      "path": "Scheduling for Spaced Repetition/SuperMemo/_Index_of_SuperMemo.md"
-    },
-    {
-      "basename": "Anki数据库设计",
-      "path": "Scheduling for Spaced Repetition/SuperMemo/Anki数据库设计.md"
-    },
-    {
-      "basename": "封装成帧",
-      "path": "408/计算机网络/第3章/封装成帧.md"
-    },
-    {
-      "basename": "虚拟局域网VLAN",
-      "path": "408/计算机网络/第3章/虚拟局域网VLAN.md"
     }
   ],
   "omittedPaths": [],

@@ -121,7 +121,7 @@ long Fib(long N)
 
      result = pre\_result + next\_older\_result;//结果为前两个数之和
 
-    }
+   }
 
     return result;
 
