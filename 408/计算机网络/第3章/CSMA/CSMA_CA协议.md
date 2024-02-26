@@ -1,6 +1,9 @@
 ---
-tags: 计算机网络  第三章 [obsidian]
-cards-deck: 考研::计算机网络
+tags:
+  - 计算机网络
+  - 第三章
+  - "[obsidian]"
+cards-deck: principle::计算机网络
 ---
 # [[802.11无线局域网的组成]]
 
@@ -142,7 +145,7 @@ RTS包含什么信息？ #card
 ^1633577976722
 
 CTS是什么，全称又是什么？ #card 
-允许发送CTS （Clear To Send）
+取消发送CTS （Clear To Send）
 ^1633577976727
 
 CTS包含什么信息？ #card 
