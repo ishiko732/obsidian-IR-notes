@@ -69,6 +69,92 @@ function bubbleSort(arr: number[]) {
   return arr;
 }
 
+function mergeSort(arr: number[]): number[] {
+  const n = arr.length;
+  const tmpA = new Array<number>(n).fill(NaN);
+  msort(arr, tmpA, 0, n - 1);
+  return arr;
+}
+
+function msort(arr: number[], tmpA: number[], left: number, rightEnd: number) {
+  if (left < rightEnd) {
+    const mid = Math.floor((left + rightEnd) / 2);
+    msort(arr, tmpA, left, mid);
+    msort(arr, tmpA, mid + 1, rightEnd);
+    merge(arr, tmpA, left, mid + 1, rightEnd);
+  }
+}
+
+function merge(
+  arr: number[],
+  tmpA: number[],
+  left: number,
+  right: number,
+  rightEnd: number
+) {
+  const leftEnd = right - 1;
+  let tmp = left;
+  const numElements = rightEnd - left + 1;
+  while (left <= leftEnd && right <= rightEnd) {
+    if (arr[left] <= arr[right]) {
+      tmpA[tmp++] = arr[left++];
+    } else {
+      tmpA[tmp++] = arr[right++];
+    }
+  }
+  while (left <= leftEnd) {
+    tmpA[tmp++] = arr[left++];
+  }
+  while (right <= rightEnd) {
+    tmpA[tmp++] = arr[right++];
+  }
+  for (let i = 0; i < numElements; i++, rightEnd--) {
+    arr[rightEnd] = tmpA[rightEnd];
+  }
+}
+
+// TODO
+// function mergeSortNonRecursive(arr: number[]):number[]{
+//   const n = arr.length;
+//   const tmpA = new Array<number>(n).fill(NaN);
+
+// }
+
+function heapSort(arr: number[]) {
+  const n = arr.length;
+  for (let i = Math.floor(n / 2) - 1; i >= 0; i--) {
+    percDown(arr, i, n);
+  }
+  for (let i = n - 1; i > 0; i--) {
+    swap(arr, 0, i);
+    percDown(arr, 0, i);
+  }
+  return arr;
+}
+
+function swap(arr: number[], a: number, b: number) {
+  const temp = arr[b];
+  arr[b] = arr[a];
+  arr[a] = temp;
+}
+
+function percDown(arr: number[], p: number, n: number) {
+  const e = arr[p];
+  let parent: number, child: number;
+  for (parent = p; parent * 2 + 1 < n; parent = child) {
+    child = parent * 2 + 1;
+    if (child != n - 1 && arr[child] < arr[child + 1]) {
+      child++;
+    }
+    if (e >= arr[child]) {
+      break;
+    } else {
+      arr[parent] = arr[child];
+    }
+  }
+  arr[parent] = e;
+}
+
 const arr: readonly number[] = [
   3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48,
 ];
@@ -77,3 +163,5 @@ console.log(insertedSort([...arr]).join(",") === output.join(","));
 console.log(shellSort([...arr]).join(",") === output.join(","));
 console.log(selectionSort([...arr]).join(",") === output.join(","));
 console.log(bubbleSort([...arr]).join(",") === output.join(","));
+console.log(mergeSort([...arr]).join(",") === output.join(","));
+console.log(heapSort([...arr]).join(",") === output.join(","));

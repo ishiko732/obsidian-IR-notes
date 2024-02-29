@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "快速排序",
+      "path": "408/数据结构/排序/快速排序.md"
+    },
+    {
+      "basename": "基数排序",
+      "path": "408/数据结构/排序/基数排序.md"
+    },
+    {
+      "basename": "桶排序",
+      "path": "408/数据结构/排序/桶排序.md"
+    },
+    {
+      "basename": "物理排序",
+      "path": "408/数据结构/排序/物理排序.md"
+    },
+    {
+      "basename": "表排序",
+      "path": "408/数据结构/排序/表排序.md"
+    },
+    {
       "basename": "堆排序",
       "path": "408/数据结构/排序/堆排序.md"
     },
@@ -11,6 +31,14 @@
     {
       "basename": "希尔排序",
       "path": "408/数据结构/排序/希尔排序.md"
+    },
+    {
+      "basename": "常用处理冲突的思路",
+      "path": "408/数据结构/树/查找/常用处理冲突的思路.md"
+    },
+    {
+      "basename": "散列表",
+      "path": "408/数据结构/树/查找/散列表.md"
     },
     {
       "basename": "简单排序",
@@ -171,34 +199,6 @@
     {
       "basename": "基础  CSView计算机招聘知识分享",
       "path": "java/basic/基础  CSView计算机招聘知识分享.md"
-    },
-    {
-      "basename": "example",
-      "path": "MySQL/example.md"
-    },
-    {
-      "basename": "MySQL-概述",
-      "path": "MySQL/MySQL-概述.md"
-    },
-    {
-      "basename": "install",
-      "path": "redis/install.md"
-    },
-    {
-      "basename": "_Index_of_redis",
-      "path": "redis/_Index_of_redis.md"
-    },
-    {
-      "basename": "Pasted image 20230401154028",
-      "path": "resources/Pasted image 20230401154028.png"
-    },
-    {
-      "basename": "Pasted image 20230401154041",
-      "path": "resources/Pasted image 20230401154041.png"
-    },
-    {
-      "basename": "Pasted image 20230402223748",
-      "path": "resources/Pasted image 20230402223748.png"
     }
   ],
   "omittedPaths": [],
